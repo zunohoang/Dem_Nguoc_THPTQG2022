@@ -1,0 +1,25 @@
+   {   
+       "name": "Đếm ngược THPT QG",   
+       "description": "ZunoHoang Extension!",   
+       "version": "1.0",   
+       "manifest_version": 3 ,
+       "background": {   
+         "service_worker": "background.js"   
+       }   ,
+        "permissions": ["storage"],
+        "action": {   
+         "default_popup": "popup.html",
+         "default_icon": {   
+           "16": "/images/get_started16.jpg",   
+           "32": "/images/get_started32.jpg",   
+           "48": "/images/get_started48.jpg",   
+           "128": "/images/get_started128.jpg"   
+         }   
+       }  ,  
+       "icons": {   
+         "16": "/images/get_started16.jpg",   
+         "32": "/images/get_started32.jpg",   
+         "48": "/images/get_started48.jpg",   
+         "128": "/images/get_started128.jpg"   
+       }   
+     }   
